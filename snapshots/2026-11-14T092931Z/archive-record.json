@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "archive_name": "EDGE_OS_REVIEW_PACKAGE_20261114T092931Z.zip",
+  "archive_bytes": 5253846,
+  "archive_sha256": "c3f57a0a8e602098fe5ae8f81de224adc414c1525a3660d57639b8426aaa873a",
+  "zip_entries": 919,
+  "manifest_files_verified": 918,
+  "manifest_mismatches": [],
+  "zip_crc": "passed",
+  "top_level_entry_counts": {
+    "manifest.json": 1,
+    "packaging_notes.json": 1,
+    "project": 894,
+    "project_history": 22,
+    "START_HERE.md": 1
+  },
+  "sanitized": false,
+  "purpose": "Historical review archive; separate from EOS application and runtime",
+  "verification_scope": "Integrity only; application code and runtime were not executed"
+}

@@ -1,0 +1,55 @@
+{
+  "created_at_utc": "2026-11-14T09:29:43.484856+00:00",
+  "source_root": "C:\\Users\\Kyrie\\Documents\\EDGE OS 101\\polymarket-edge-mvp-fixed\\polymarket-edge-mvp",
+  "sanitized": false,
+  "selection_raw_budget_bytes": 600000000,
+  "per_evidence_file_limit_bytes": 2000000,
+  "git_results": {
+    "git_status.txt": {
+      "exit_code": 0,
+      "stderr_bytes": 2708
+    },
+    "git_diff.patch": {
+      "exit_code": 0,
+      "stderr_bytes": 2404
+    },
+    "git_commit.txt": {
+      "exit_code": 0,
+      "stderr_bytes": 0
+    },
+    "git_branch.txt": {
+      "exit_code": 0,
+      "stderr_bytes": 0
+    }
+  },
+  "skipped": [
+    {
+      "path": "polymarket-edge-mvp-fixed\\polymarket-edge-mvp\\execution_output\\p1_execution_void\\pre_reconciliation.json",
+      "reason": "per_file_limit",
+      "bytes": 149688166
+    },
+    {
+      "path": "polymarket-edge-mvp-fixed\\polymarket-edge-mvp\\execution_output\\p1_execution_void\\production_before.json",
+      "reason": "per_file_limit",
+      "bytes": 149688166
+    },
+    {
+      "path": "polymarket-edge-mvp-fixed\\polymarket-edge-mvp\\execution_output\\p1_execution_void\\reconciliation_trial.json",
+      "reason": "per_file_limit",
+      "bytes": 151907946
+    },
+    {
+      "path": "polymarket-edge-mvp-fixed\\polymarket-edge-mvp\\execution_output\\protected_restart_20261025T064646Z\\pre_ledger.json",
+      "reason": "per_file_limit",
+      "bytes": 2285104
+    }
+  ],
+  "excluded_categories": [
+    "database and backups",
+    "WAL/SHM",
+    "runtime logs and JSONL",
+    "caches and environments",
+    "git object history",
+    "images and media"
+  ]
+}
